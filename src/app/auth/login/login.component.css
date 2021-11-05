@@ -1,0 +1,37 @@
+.contenedor{
+    background: url('./../../../assets/img/sidebar-1.jpg') no-repeat center ;
+    height: 100%;
+   background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;
+  filter: brightness(0.5);
+
+}
+#nada {
+    
+}
+.background-image {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: block;
+    background-position: center center;
+    background-image: url('./../../../assets/img/sidebar-2.jpg');
+   height: 100%;
+    width: 100%;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+  }
+  
+  .content {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    margin-left: 20px;
+    margin-right: 20px;
+  }

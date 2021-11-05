@@ -1,0 +1,14 @@
+
+
+<form action="">
+    <div class="form-group">
+        <label for="exampleFormControlSelect1">Seleccione un centro de trabajo</label>
+        <select (change)="cambioCentro($event.target.value)" ([ngModel])="id_centro_trabajo" name="id_centro_trabajo" class="form-control">
+          <option value="0">Todos los centros</option>
+          <option value="1">Mi taxi</option>
+          <option value="2">Santa Ana</option>
+        </select>
+      </div>
+</form>
+<div #map id="map"></div>
+
